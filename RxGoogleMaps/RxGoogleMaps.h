@@ -2,8 +2,8 @@
 //  RxGoogleMaps.h
 //  RxGoogleMaps
 //
-//  Created by Yongha Yoo (inkyfox) on 2016. 10. 10..
-//  Copyright © 2016년 Gen X Hippies Company. All rights reserved.
+//  Created by Kazuhiro Yamada on 2017/05/01.
+//  Copyright © 2017年 Gen X Hippies Company. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

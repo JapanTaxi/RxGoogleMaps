@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282019A31EB75B1000C2AEB7 /* RxGoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 282019A11EB75B1000C2AEB7 /* RxGoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282019B51EB760E300C2AEB7 /* RxGMSCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019AB1EB760E300C2AEB7 /* RxGMSCircle.swift */; };
+		282019B61EB760E300C2AEB7 /* RxGMSGroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019AC1EB760E300C2AEB7 /* RxGMSGroundOverlay.swift */; };
+		282019B71EB760E300C2AEB7 /* RxGMSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019AD1EB760E300C2AEB7 /* RxGMSMapView.swift */; };
+		282019B81EB760E300C2AEB7 /* RxGMSMapView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019AE1EB760E300C2AEB7 /* RxGMSMapView+Rx.swift */; };
+		282019B91EB760E300C2AEB7 /* RxGMSMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019AF1EB760E300C2AEB7 /* RxGMSMapViewDelegate.swift */; };
+		282019BA1EB760E300C2AEB7 /* RxGMSMapViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019B01EB760E300C2AEB7 /* RxGMSMapViewDelegateProxy.swift */; };
+		282019BB1EB760E300C2AEB7 /* RxGMSMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019B11EB760E300C2AEB7 /* RxGMSMarker.swift */; };
+		282019BC1EB760E300C2AEB7 /* RxGMSOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019B21EB760E300C2AEB7 /* RxGMSOverlay.swift */; };
+		282019BD1EB760E300C2AEB7 /* RxGMSPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019B31EB760E300C2AEB7 /* RxGMSPolygon.swift */; };
+		282019BE1EB760E300C2AEB7 /* RxGMSPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282019B41EB760E300C2AEB7 /* RxGMSPolyline.swift */; };
+		282019C01EB762F100C2AEB7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282019BF1EB762F100C2AEB7 /* RxCocoa.framework */; };
+		282019C21EB7630900C2AEB7 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282019C11EB7630900C2AEB7 /* RxSwift.framework */; };
 		A90681E71DAFCDD00019C689 /* key.plist in Resources */ = {isa = PBXBuildFile; fileRef = A90681E61DAFCDD00019C689 /* key.plist */; };
 		A90F9CBC1DAABB5600A3461E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F9CBB1DAABB5600A3461E /* AppDelegate.swift */; };
 		A90F9CBE1DAABB5600A3461E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F9CBD1DAABB5600A3461E /* ViewController.swift */; };
@@ -19,6 +32,21 @@
 
 /* Begin PBXFileReference section */
 		259DDC520C5E3D8FE4BA82D7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2820199F1EB75B1000C2AEB7 /* RxGoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxGoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282019A11EB75B1000C2AEB7 /* RxGoogleMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxGoogleMaps.h; sourceTree = "<group>"; };
+		282019A21EB75B1000C2AEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282019AB1EB760E300C2AEB7 /* RxGMSCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSCircle.swift; path = Sources/RxGMSCircle.swift; sourceTree = SOURCE_ROOT; };
+		282019AC1EB760E300C2AEB7 /* RxGMSGroundOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSGroundOverlay.swift; path = Sources/RxGMSGroundOverlay.swift; sourceTree = SOURCE_ROOT; };
+		282019AD1EB760E300C2AEB7 /* RxGMSMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSMapView.swift; path = Sources/RxGMSMapView.swift; sourceTree = SOURCE_ROOT; };
+		282019AE1EB760E300C2AEB7 /* RxGMSMapView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RxGMSMapView+Rx.swift"; path = "Sources/RxGMSMapView+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		282019AF1EB760E300C2AEB7 /* RxGMSMapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSMapViewDelegate.swift; path = Sources/RxGMSMapViewDelegate.swift; sourceTree = SOURCE_ROOT; };
+		282019B01EB760E300C2AEB7 /* RxGMSMapViewDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSMapViewDelegateProxy.swift; path = Sources/RxGMSMapViewDelegateProxy.swift; sourceTree = SOURCE_ROOT; };
+		282019B11EB760E300C2AEB7 /* RxGMSMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSMarker.swift; path = Sources/RxGMSMarker.swift; sourceTree = SOURCE_ROOT; };
+		282019B21EB760E300C2AEB7 /* RxGMSOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSOverlay.swift; path = Sources/RxGMSOverlay.swift; sourceTree = SOURCE_ROOT; };
+		282019B31EB760E300C2AEB7 /* RxGMSPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSPolygon.swift; path = Sources/RxGMSPolygon.swift; sourceTree = SOURCE_ROOT; };
+		282019B41EB760E300C2AEB7 /* RxGMSPolyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGMSPolyline.swift; path = Sources/RxGMSPolyline.swift; sourceTree = SOURCE_ROOT; };
+		282019BF1EB762F100C2AEB7 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		282019C11EB7630900C2AEB7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		53D0DB689702006F776EF1D4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A90681E61DAFCDD00019C689 /* key.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = key.plist; sourceTree = "<group>"; };
 		A90F9CB91DAABB5600A3461E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +61,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2820199B1EB75B1000C2AEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282019C21EB7630900C2AEB7 /* RxSwift.framework in Frameworks */,
+				282019C01EB762F100C2AEB7 /* RxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A90F9CB61DAABB5600A3461E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,9 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282019A01EB75B1000C2AEB7 /* RxGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				282019AB1EB760E300C2AEB7 /* RxGMSCircle.swift */,
+				282019AC1EB760E300C2AEB7 /* RxGMSGroundOverlay.swift */,
+				282019AD1EB760E300C2AEB7 /* RxGMSMapView.swift */,
+				282019AE1EB760E300C2AEB7 /* RxGMSMapView+Rx.swift */,
+				282019AF1EB760E300C2AEB7 /* RxGMSMapViewDelegate.swift */,
+				282019B01EB760E300C2AEB7 /* RxGMSMapViewDelegateProxy.swift */,
+				282019B11EB760E300C2AEB7 /* RxGMSMarker.swift */,
+				282019B21EB760E300C2AEB7 /* RxGMSOverlay.swift */,
+				282019B31EB760E300C2AEB7 /* RxGMSPolygon.swift */,
+				282019B41EB760E300C2AEB7 /* RxGMSPolyline.swift */,
+				282019A11EB75B1000C2AEB7 /* RxGoogleMaps.h */,
+				282019A21EB75B1000C2AEB7 /* Info.plist */,
+			);
+			path = RxGoogleMaps;
+			sourceTree = "<group>";
+		};
 		75B80F02794213887976E6AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				282019C11EB7630900C2AEB7 /* RxSwift.framework */,
+				282019BF1EB762F100C2AEB7 /* RxCocoa.framework */,
 				AEE9272F37DFF9F5256AB1B0 /* Pods_Example.framework */,
 			);
 			name = Frameworks;
@@ -65,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A90F9CBA1DAABB5600A3461E /* Example */,
+				282019A01EB75B1000C2AEB7 /* RxGoogleMaps */,
 				A90F9C9C1DAAB67100A3461E /* Products */,
 				9B7A7BF2C222C22118C2FAA0 /* Pods */,
 				75B80F02794213887976E6AD /* Frameworks */,
@@ -75,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				A90F9CB91DAABB5600A3461E /* Example.app */,
+				2820199F1EB75B1000C2AEB7 /* RxGoogleMaps.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +156,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2820199C1EB75B1000C2AEB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282019A31EB75B1000C2AEB7 /* RxGoogleMaps.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2820199E1EB75B1000C2AEB7 /* RxGoogleMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282019A61EB75B1000C2AEB7 /* Build configuration list for PBXNativeTarget "RxGoogleMaps" */;
+			buildPhases = (
+				2820199A1EB75B1000C2AEB7 /* Sources */,
+				2820199B1EB75B1000C2AEB7 /* Frameworks */,
+				2820199C1EB75B1000C2AEB7 /* Headers */,
+				2820199D1EB75B1000C2AEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxGoogleMaps;
+			productName = RxGoogleMaps;
+			productReference = 2820199F1EB75B1000C2AEB7 /* RxGoogleMaps.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A90F9CB81DAABB5600A3461E /* Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A90F9CD31DAABB5600A3461E /* Build configuration list for PBXNativeTarget "Example" */;
@@ -127,6 +216,12 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Gen X Hippies Company";
 				TargetAttributes = {
+					2820199E1EB75B1000C2AEB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VVBVRY525G;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
 					A90F9CB81DAABB5600A3461E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = XH2F8QV9GT;
@@ -148,11 +243,19 @@
 			projectRoot = "";
 			targets = (
 				A90F9CB81DAABB5600A3461E /* Example */,
+				2820199E1EB75B1000C2AEB7 /* RxGoogleMaps */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2820199D1EB75B1000C2AEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A90F9CB71DAABB5600A3461E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,12 +312,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2820199A1EB75B1000C2AEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282019BC1EB760E300C2AEB7 /* RxGMSOverlay.swift in Sources */,
+				282019B51EB760E300C2AEB7 /* RxGMSCircle.swift in Sources */,
+				282019B61EB760E300C2AEB7 /* RxGMSGroundOverlay.swift in Sources */,
+				282019B71EB760E300C2AEB7 /* RxGMSMapView.swift in Sources */,
+				282019BA1EB760E300C2AEB7 /* RxGMSMapViewDelegateProxy.swift in Sources */,
+				282019BB1EB760E300C2AEB7 /* RxGMSMarker.swift in Sources */,
+				282019BD1EB760E300C2AEB7 /* RxGMSPolygon.swift in Sources */,
+				282019B91EB760E300C2AEB7 /* RxGMSMapViewDelegate.swift in Sources */,
+				282019B81EB760E300C2AEB7 /* RxGMSMapView+Rx.swift in Sources */,
+				282019BE1EB760E300C2AEB7 /* RxGMSPolyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A90F9CB51DAABB5600A3461E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +367,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		282019A41EB75B1000C2AEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VVBVRY525G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxGoogleMaps/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.japantaxi.RxGoogleMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		282019A51EB75B1000C2AEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VVBVRY525G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxGoogleMaps/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.japantaxi.RxGoogleMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		A90F9CAD1DAAB67100A3461E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,6 +554,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		282019A61EB75B1000C2AEB7 /* Build configuration list for PBXNativeTarget "RxGoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282019A41EB75B1000C2AEB7 /* Debug */,
+				282019A51EB75B1000C2AEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A90F9C951DAAB67100A3461E /* Build configuration list for PBXProject "RxGoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
